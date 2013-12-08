@@ -21,6 +21,10 @@
 		FAD02D1E185528F700E29472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD02D00185528F700E29472 /* UIKit.framework */; };
 		FAD02D26185528F700E29472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D24185528F700E29472 /* InfoPlist.strings */; };
 		FAD02D28185528F700E29472 /* ABStepViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD02D27185528F700E29472 /* ABStepViewTests.m */; };
+		FAD02D331855291D00E29472 /* ABStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD02D321855291D00E29472 /* ABStepView.m */; };
+		FAD02D3718552C9B00E29472 /* abstepview_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3518552C9B00E29472 /* abstepview_dot.png */; };
+		FAD02D3818552C9B00E29472 /* abstepview_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3618552C9B00E29472 /* abstepview_dot@2x.png */; };
+		FAD02D3B1855306F00E29472 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3A1855306F00E29472 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		FAD02D23185528F700E29472 /* ABStepViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABStepViewTests-Info.plist"; sourceTree = "<group>"; };
 		FAD02D25185528F700E29472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAD02D27185528F700E29472 /* ABStepViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABStepViewTests.m; sourceTree = "<group>"; };
+		FAD02D311855291D00E29472 /* ABStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABStepView.h; path = ABStepView/ABStepView.h; sourceTree = "<group>"; };
+		FAD02D321855291D00E29472 /* ABStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABStepView.m; path = ABStepView/ABStepView.m; sourceTree = "<group>"; };
+		FAD02D3518552C9B00E29472 /* abstepview_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstepview_dot.png; sourceTree = "<group>"; };
+		FAD02D3618552C9B00E29472 /* abstepview_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abstepview_dot@2x.png"; sourceTree = "<group>"; };
+		FAD02D3A1855306F00E29472 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,7 @@
 		FAD02CF0185528F700E29472 = {
 			isa = PBXGroup;
 			children = (
+				FAD02D3A1855306F00E29472 /* README.md */,
 				FAD02D02185528F700E29472 /* ABStepView */,
 				FAD02D21185528F700E29472 /* ABStepViewTests */,
 				FAD02CFB185528F700E29472 /* Frameworks */,
@@ -112,6 +122,7 @@
 		FAD02D02185528F700E29472 /* ABStepView */ = {
 			isa = PBXGroup;
 			children = (
+				FAD02D341855292300E29472 /* ABStepView */,
 				FAD02D0B185528F700E29472 /* ABAppDelegate.h */,
 				FAD02D0C185528F700E29472 /* ABAppDelegate.m */,
 				FAD02D0E185528F700E29472 /* Main.storyboard */,
@@ -150,6 +161,25 @@
 				FAD02D24185528F700E29472 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD02D341855292300E29472 /* ABStepView */ = {
+			isa = PBXGroup;
+			children = (
+				FAD02D3918552C9F00E29472 /* images */,
+				FAD02D311855291D00E29472 /* ABStepView.h */,
+				FAD02D321855291D00E29472 /* ABStepView.m */,
+			);
+			name = ABStepView;
+			sourceTree = "<group>";
+		};
+		FAD02D3918552C9F00E29472 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FAD02D3518552C9B00E29472 /* abstepview_dot.png */,
+				FAD02D3618552C9B00E29472 /* abstepview_dot@2x.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +259,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAD02D3B1855306F00E29472 /* README.md in Resources */,
 				FAD02D15185528F700E29472 /* Images.xcassets in Resources */,
+				FAD02D3718552C9B00E29472 /* abstepview_dot.png in Resources */,
 				FAD02D07185528F700E29472 /* InfoPlist.strings in Resources */,
 				FAD02D10185528F700E29472 /* Main.storyboard in Resources */,
+				FAD02D3818552C9B00E29472 /* abstepview_dot@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD02D09185528F700E29472 /* main.m in Sources */,
+				FAD02D331855291D00E29472 /* ABStepView.m in Sources */,
 				FAD02D13185528F700E29472 /* ABViewController.m in Sources */,
 				FAD02D0D185528F700E29472 /* ABAppDelegate.m in Sources */,
 			);

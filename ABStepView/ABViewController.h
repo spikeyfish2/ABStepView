@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ABStepView.h"
 
 @interface ABViewController : UIViewController
+
+@property (nonatomic, retain) IBOutlet ABStepView *stepView;
 
 @end
