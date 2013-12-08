@@ -19,7 +19,6 @@
     [super viewDidLoad];
 	
     [self.stepView setViewWithNumberOfDots:6 withSelected:2];
-    CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)
     
     
 }
