@@ -22,9 +22,9 @@
 		FAD02D26185528F700E29472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D24185528F700E29472 /* InfoPlist.strings */; };
 		FAD02D28185528F700E29472 /* ABStepViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD02D27185528F700E29472 /* ABStepViewTests.m */; };
 		FAD02D331855291D00E29472 /* ABStepView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD02D321855291D00E29472 /* ABStepView.m */; };
-		FAD02D3718552C9B00E29472 /* abstepview_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3518552C9B00E29472 /* abstepview_dot.png */; };
-		FAD02D3818552C9B00E29472 /* abstepview_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3618552C9B00E29472 /* abstepview_dot@2x.png */; };
 		FAD02D3B1855306F00E29472 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3A1855306F00E29472 /* README.md */; };
+		FAD02D3E1855333400E29472 /* abstepview_dot.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3C1855333400E29472 /* abstepview_dot.png */; };
+		FAD02D3F1855333400E29472 /* abstepview_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD02D3D1855333400E29472 /* abstepview_dot@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +59,9 @@
 		FAD02D27185528F700E29472 /* ABStepViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABStepViewTests.m; sourceTree = "<group>"; };
 		FAD02D311855291D00E29472 /* ABStepView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABStepView.h; path = ABStepView/ABStepView.h; sourceTree = "<group>"; };
 		FAD02D321855291D00E29472 /* ABStepView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABStepView.m; path = ABStepView/ABStepView.m; sourceTree = "<group>"; };
-		FAD02D3518552C9B00E29472 /* abstepview_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = abstepview_dot.png; sourceTree = "<group>"; };
-		FAD02D3618552C9B00E29472 /* abstepview_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "abstepview_dot@2x.png"; sourceTree = "<group>"; };
 		FAD02D3A1855306F00E29472 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		FAD02D3C1855333400E29472 /* abstepview_dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = abstepview_dot.png; path = ABStepView/abstepview_dot.png; sourceTree = "<group>"; };
+		FAD02D3D1855333400E29472 /* abstepview_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "abstepview_dot@2x.png"; path = "ABStepView/abstepview_dot@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,8 +176,8 @@
 		FAD02D3918552C9F00E29472 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				FAD02D3518552C9B00E29472 /* abstepview_dot.png */,
-				FAD02D3618552C9B00E29472 /* abstepview_dot@2x.png */,
+				FAD02D3C1855333400E29472 /* abstepview_dot.png */,
+				FAD02D3D1855333400E29472 /* abstepview_dot@2x.png */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -261,10 +261,10 @@
 			files = (
 				FAD02D3B1855306F00E29472 /* README.md in Resources */,
 				FAD02D15185528F700E29472 /* Images.xcassets in Resources */,
-				FAD02D3718552C9B00E29472 /* abstepview_dot.png in Resources */,
+				FAD02D3F1855333400E29472 /* abstepview_dot@2x.png in Resources */,
 				FAD02D07185528F700E29472 /* InfoPlist.strings in Resources */,
 				FAD02D10185528F700E29472 /* Main.storyboard in Resources */,
-				FAD02D3818552C9B00E29472 /* abstepview_dot@2x.png in Resources */,
+				FAD02D3E1855333400E29472 /* abstepview_dot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +495,7 @@
 				FAD02D2D185528F700E29472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAD02D2E185528F700E29472 /* Build configuration list for PBXNativeTarget "ABStepViewTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +504,7 @@
 				FAD02D30185528F700E29472 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
